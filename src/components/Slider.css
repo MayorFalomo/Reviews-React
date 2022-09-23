@@ -1,0 +1,57 @@
+ img{
+    width:100%;
+}
+.imagery{
+    width: 200px;
+    height:200px ;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 300px;
+}
+.container{
+    display:flex;
+     justify-content: center;
+     margin: 0 auto;
+     align-items: center;
+     margin: auto;
+     flex-direction: column;
+     max-width: 40%;
+     text-align: center;
+     transition: all 0.4s ease;
+}
+.card{
+    margin-bottom: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.4s ease;
+    padding: 30px;
+}
+span{
+    color: deepskyblue;
+}
+button{
+    border: none;
+    color: deepskyblue;
+    outline: none;
+}
+.nextPrevBtn button {
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 100;
+}
+.surpriseBtn{
+    padding: 10px;
+    border-radius: 5px;
+}
+.line{
+    /* border: 2px blue solid; */
+    height: 5px;
+    width: 75px;
+    background-color: deepskyblue;
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+}
+.position{
+    position: relative;
+    margin-bottom: 40px;
+}
